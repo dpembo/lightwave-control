@@ -1,0 +1,7 @@
+
+#scheduled turn off of living room lights at midnight
+15 22 * * * sleep 44 ; wget -O - http://localhost:81/ha/ha.php?id=111235190237183123&onoff=1&dim=12&room=Schedule+-+1
+#Turn on at 07:30 at weekends
+30 7 * * 0,6 sleep 44 ; wget -O - http://localhost:81/ha/ha.php?id=111235190237183123&onoff=1&dim=00&room=Schedule+-+2
+#Turn off bedroom lights
+30 23 * * 1,2,3,4,5 sleep 44 ; wget -O - http://localhost:81/ha/ha.php?id=111235190237239123&onoff=0&dim=00&room=Schedule+-+3

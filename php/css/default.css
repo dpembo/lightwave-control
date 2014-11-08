@@ -1,0 +1,298 @@
+BODY
+{
+	font-family: verdana;
+	font-size: 10pt;
+	margin-left: 0;
+	margin-top: 0;
+}
+
+HR
+{
+	height: 1px;
+	color: #BBBBBB;
+	background-color: #BBBBBB;
+}
+
+
+a.menuicon {
+    color: #0088CC;
+    text-decoration: none;
+}
+
+a.menuicon:hover{
+    color: #0088CC;
+    text-decoration: none;
+}
+
+a.menuicon:active{
+    color: #0088CC;
+    text-decoration: none;
+}
+
+a {
+    color: #0088CC;
+    text-decoration: none;
+}
+
+UL.dropdown-panel li a
+{
+    font-size: 14pt;
+}
+
+UL.dropdown-panel li
+{
+    padding-bottom:10px;
+}
+
+.s0
+{
+display: block;
+width: 50px;
+height: 60px;
+background-image: url(../images/slider.png);
+background-repeat: no-repeat;
+background-position: 0px 0px;
+float: left;
+}
+
+.s1
+{
+display: block;
+width: 50px;
+height: 60px;
+background-image: url(../images/slider.png);
+background-repeat: no-repeat;
+background-position: -50px 0px;
+float: left;
+}
+
+.s2
+{
+display: block;
+width: 50px;
+height: 60px;
+background-image: url(../images/slider.png);
+background-repeat: no-repeat;
+background-position: -100px 0px;
+float:left;
+}
+
+.s3
+{
+display: block;
+width: 50px;
+height: 60px;
+background-image: url(../images/slider.png);
+background-repeat: no-repeat;
+background-position: -150px 0px;
+float: left;
+}
+
+.s4
+{
+display: block;
+width: 50px;
+height: 60px;
+background-image: url(../images/slider.png);
+background-repeat: no-repeat;
+background-position: -200px 0px;
+float: left;
+}
+
+.s5
+{
+display: block;
+width: 50px;
+height: 60px;
+background-image: url(../images/slider.png);
+background-repeat: no-repeat;
+background-position: -250px 0px;
+float: left;
+}
+
+.zerop
+{
+display: block;
+float: left;
+width: 125px;
+}
+
+
+.loadingOff
+{
+    margin-right: 20px;
+    margin-top: 10px;
+    opacity: 1;
+    position: absolute;
+    right: 5px;
+    top: 2px;
+    z-index: 1000;
+    display: none;
+}
+
+.loadingOn
+{
+    margin-right: 20px;
+    margin-top: 10px;
+    opacity: 1;
+    position: fixed;
+    right: 5px;
+    top: 2px;
+    z-index: 1000;
+    display: inlne;
+    background-color: #222222;
+    padding-bottom:2px;
+    padding-left: 2px;
+}
+
+
+#header
+{
+    background-color: #222222;
+    border-bottom: 5px solid #000000;
+    color: #FFFFFF;
+    font-size: 24pt;
+    height: 60px;
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.disablingDivOff
+{
+    /* Do not display it on entry */
+    display: none;
+ 
+    /* Display it on the layer with index 1001.
+       Make sure this is the highest z-index value
+       used by layers on that page */
+    z-index:900;
+     
+    /* make it cover the whole screen */
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+ 
+    /* make it white but fully transparent */
+    background-color: #222222;
+    opacity:0.5;
+    filter: alpha(opacity=50);
+}
+
+.disablingDivOn
+{
+    /* Do not display it on entry */
+    display: block;
+
+    /* Display it on the layer with index 1001.
+       Make sure this is the highest z-index value
+       used by layers on that page */
+    z-index:900;
+
+    /* make it cover the whole screen */
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+
+    /* make it white but fully transparent */
+    background-color: #222222;
+    opacity:0.5;
+    filter: alpha(opacity=50);
+
+}
+
+.waittext
+{
+	color:#FFFFFF;
+	margin-right: 10px;
+}
+
+.deviceGroup
+{
+   border:2px solid #555555;
+   border-radius:25px;
+}
+
+.pairgroup {
+    background-color: #EEEEEE;
+    border: 1px solid #dddddd;
+    border-radius: 25px;
+    display: block;
+    float: left;
+    height: 200px;
+    margin-left: 15px;
+    margin-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    width: 350px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+.pairgroupwhole {
+    background-color: #ddddff;
+    border-radius: 25px;
+    border: 1px solid #dddddd;
+    display: block;
+    float: left;
+    height: 200px; 
+    margin-left: 15px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    width: 350px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+#buttons
+{
+        border-top: 5px solid #000000;
+        background-color: #222222;
+        height:70px;
+        display: block;
+        position: absolute;
+        bottom: 0px;
+        width:100%;
+        text-align: right;
+}
+
+#body
+{
+        overflow:auto;
+        position:fixed;
+        top:80px;
+        left:5px;
+        right:5px;
+	height:80%;
+}
+
+.editIcon
+{
+	width: 22px;
+	height: 20px;
+	margin-top: 3px;
+}
+
+.trashIcon
+{
+	width: 18px;
+	height: 20px;
+	margin-top:3px;
+	margin-right:10px;
+	margin-left:5px;
+}
+
+
+.Pairdesc {
+    left: -18px;
+    position: relative;
+}
+
+@media screen and (max-width:400px) {
+    @-ms-viewport{
+        width:600px;
+    }
+}
